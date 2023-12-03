@@ -1,0 +1,25 @@
+# Area of a Triangle
+def area_t(height, base):
+  area = height*ase/2
+  print("The area of the triangle is: ", area)
+  return area
+# Perimeter of a Triangle
+def perimeter_t (s1, s2, s3):
+  perimeter = s1 + s2 + s3
+  print("The perimeter of the triangle is: ", perimeter)
+  return perimter
+
+# Program 
+print("Basic Area Calculator")
+print("----------------------------------")
+shape = input("Enter the type of the shape: ")
+if shape == "Triangle" or shape == "triangle":
+  a_or_p = input("Area or Perimeter: ")
+  if a_or_p == "area" or a_or_p == "Area":
+    h = int(input("Enter the length of the height: "))
+    b = int(input("Enter the length of the base: "))
+    area = area_t(h, b)
+  else:
+    s1 = int(input("Enter the length of the first side: ")
+    s2 = int(input("Enter the length of the second side: ")
+    s3 = int(input("Enter the length of the third side: ")
